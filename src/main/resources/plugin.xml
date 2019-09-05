@@ -1,0 +1,17 @@
+<plugin>
+    <!-- You should change these values accordingly -->
+    <name>KotlinTemplate</name>
+    <author>daniel0611</author>
+    <version>0.1</version>
+    <api>
+        <major>3</major>
+        <minor>0</minor>
+    </api>
+    <description>
+        A easy to use template for ChatOverflow plugins written in Kotlin using my ChatOverflow Gradle plugin.
+    </description>
+    <license>EPL-2.0</license>
+    <website>https://github.com/daniel0611/chatoverflow-kotlin-template#readme</website>
+    <sourceRepo>https://github.com/daniel0611/chatoverflow-kotlin-template.git</sourceRepo>
+    <bugtracker>https://github.com/daniel0611/chatoverflow-kotlin-template/issues</bugtracker>
+</plugin>
