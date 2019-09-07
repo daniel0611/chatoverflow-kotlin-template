@@ -18,10 +18,10 @@ Here's a simple guide to create your own ChatOverflow Kotlin plugin using this t
 
 4. Open the project in your favorite IDE or text editor, I recommend [IntelliJ](https://www.jetbrains.com/idea/) for any JVM related work.
 
-5. Update the values in `src/main/resources/plugin.xml` with your values accordingly.
+5. Update the values in `settings.gradle` and  `src/main/resources/plugin.xml` with your values accordingly.
 
 6. Run `gradle jar` or use the `Build Plugin` run configuration inside IntelliJ to build the plugin. You have now a built plugin jar inside of `build/libs`. 
 
-7. Copy the jar into the `plugins` directory of any ChatOverflow installation thats newer than prealpha 2.1. Run ChatOverflow and test your plugin.
+7. Copy the jar into the `plugins` directory of any ChatOverflow installation version prealpha 3 / a current prealpha 3 developer installation or newer. Run ChatOverflow and test your plugin.
 
 8. Go and modify the actual plugin source file located at `src/main/kotlin` and start developing your plugin. Use the previous explained way to build and test your plugin. If you want to share your plugin with other people you can just give them your plugin jar, but they also need ChatOverflow prealpha 3 or newer / a current developer version.
