@@ -7,6 +7,7 @@
         <major>3</major>
         <minor>0</minor>
     </api>
+    <!-- All values below this comment are optional. Remove the tags of values you don't want to provide -->
     <description>
         A easy to use template for ChatOverflow plugins written in Kotlin using my ChatOverflow Gradle plugin.
     </description>
